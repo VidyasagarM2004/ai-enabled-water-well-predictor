@@ -1,0 +1,121 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1523731407965-2430cd12f5e4') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero .overlay {
+  background: rgba(0, 60, 120, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero span {
+  color: #4cd3ff;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 1.2rem;
+}
+
+/* Buttons */
+.btn {
+  padding: 12px 24px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.primary {
+  background: #0077b6;
+  color: white;
+}
+
+.primary:hover {
+  background: #023e8a;
+}
+
+.secondary {
+  background: #ccc;
+  color: #555;
+  cursor: not-allowed;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  background: #eef6f9;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 280px;
+  text-align: center;
+}
+
+.card h3 {
+  color: #0077b6;
+}
+
+/* Prediction Page */
+.prediction {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.prediction-form {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
